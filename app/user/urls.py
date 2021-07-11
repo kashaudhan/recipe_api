@@ -1,7 +1,7 @@
 from django.urls import path
 from django.urls.resolvers import URLPattern
 
-from user import views
+from . import views
 
 app_name = 'user'
 
